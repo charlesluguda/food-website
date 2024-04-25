@@ -130,6 +130,37 @@ nav .wrapper{
     color: white;
     font-weight: bold;
 }
+
+@media screen and (max-width: 960px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+    }
+    .about-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .wrapper{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about .wrapper{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-container .about-img img{
+        width: 350px;
+        height: 350px;
+    }
+}
 /*The end of about us style*/
 /*Main content style end here*/
 
