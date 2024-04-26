@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: black;
+}
 .wrapper{
     width: 80%;
     text-align: center;
@@ -10,6 +13,9 @@
 }
 
 /*Navbar style start here*/
+nav{
+    background: white;
+}
 nav .wrapper{
     width: 80%;
     margin: auto;
@@ -162,13 +168,69 @@ nav .wrapper{
     }
 }
 /*The end of about us style*/
+
+
+/*Menu style start here*/
+.menu{
+    height: 700px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #232423;
+    color: white;
+}
+.menu .wrapper{
+    width: 80%;
+}
+.menu-box img{
+    width: 295px;
+    height: 240px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+    box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.menu-container .menu-box{
+    border: 1px solid black;
+    margin: 10px 10px;
+    width: 300px;
+    height: 450px;
+    background: #666565;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+    box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+}
+.menu .wrapper h2{
+    padding: 10px 10px;
+    color: #d1b02c;
+    font-size: 35px;
+}
+.menu .wrapper p{
+    padding: 10px 10px;
+}
+.menu-box a{
+    text-decoration: underline;
+    color: #d1b02c;
+    font-weight: 700;
+}
+
+/*Menu style ends here*/
+
+
 /*Main content style end here*/
 
 /*Footer design start here*/
 footer{
     background: black;
     color: white;
-    height: 100px;
+    height: 200px;
     align-items: center;
     display: flex;
 }
