@@ -221,8 +221,115 @@ nav .wrapper{
     font-weight: 700;
 }
 
-/*Menu style ends here*/
+@media screen and (max-width: 960px){
+    .menu{
+        height: auto;
+    }
+    .menu-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+}
 
+/*Menu style ends here*/
+/* Discover style start*/
+.discover{
+    height: 600px;
+    background: #232423;
+    color: white;
+}
+.discover .wrapper{
+    align-items: center;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.discover-img img{
+    width: 300px;
+    height: 450px;
+    border-radius: 5px;
+}
+.discover-content{
+    text-align: left;
+}
+.discover-content h2{
+    padding: 10px 10px;
+    font-size: 35px;
+}
+.discover-content p{
+    padding: 10px 10px;
+}
+.discover-content button{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: #d1b02c;
+    font-weight: bold;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+/* Discover style end*/
+
+.customer-review{
+    height: 400px;
+    background: black;
+    color: white;
+}
+.wrapper h2{
+    font-size: 35px;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+}
+.customer-review .wrapper{
+    width: 80%;
+    padding: 10px 10px;
+}
+.customer-profile{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.profile-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.customer-comment{
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.ourchef{
+    background: #666565;
+    color: white;
+    height: 750px;
+}
+.ourchef .wrapper{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ourchef h2{
+    margin: 10px 10px;
+    color: #d1b02c;
+    font-size: 35px;
+}
+.ourchef p{
+    padding: 10px 10px;
+}
+.ourchef .wrapper .menu-container .menu-box h3{
+    margin-top: 20px;
+}
+.ourchef .wrapper .menu-container .menu-box img{
+    width: 300px;
+    height: 450px;
+}
 
 /*Main content style end here*/
 
