@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 16,
+  "editor.insertSpaces": true,
+  "editor.autoIndent": "full",
+  "editor.guides.highlightActiveIndentation": true,
+  "workbench.tree.indent": 12,
+  "editor.wrappingIndent": "indent",
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapAttributesIndentSize": 10,
+  "indentRainbow.colorOnWhiteSpaceOnly": false,
+  "indentRainbow.errorColor": "lightblue",
+  "indentRainbow.lightIndicatorStyleLineWidth": 5,
+  "editor.guides.indentation": true
+}
