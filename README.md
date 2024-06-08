@@ -1,2 +1,2 @@
-# food website
-working on this one .............
+# restaurant landing page
+A simple landing page for a restaurant
